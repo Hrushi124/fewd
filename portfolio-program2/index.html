@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+      }
+
+      .container {
+        width: 80%;
+        margin: auto;
+        background: white;
+        padding: 20px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      header {
+        text-align: center;
+        padding: 20px;
+        background: #333;
+        color: white;
+      }
+
+      nav ul {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+        background: #444;
+        margin: 0;
+      }
+
+      nav ul li {
+        display: inline;
+        padding: 10px 20px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+      }
+
+      section {
+        padding: 20px;
+        border-bottom: 1px solid #ddd;
+      }
+
+      .feedback-form {
+        background: #eee;
+        padding: 15px;
+        border-radius: 5px;
+      }
+
+      .feedback-form input,
+      .feedback-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+
+      .feedback-form button {
+        background: #333;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      .feedback-form button:hover {
+        background: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>My Portfolio</h1>
+        <nav>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          Hello! I'm <b>Hrushi</b>, a passionate
+          <i>Software Engineer</i> specializing in <b>Front-end Development</b>.
+          I love creating innovative solutions.
+        </p>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML, CSS, JavaScript</li>
+          <li>React, Angular, Vue</li>
+          <li>Python, Java, C++</li>
+          <li>Database Management</li>
+        </ul>
+      </section>
+
+      <section id="projects">
+        <h2>Projects & Work Experience</h2>
+        <ul>
+          <li>
+            <a href="https://github.com/Hrushi124/fewd" target="_blank"
+              >Project 1</a
+            >
+          </li>
+          <li>
+            <a href="https://github.com/Hrushi124/project2" target="_blank"
+              >Project 2</a
+            >
+          </li>
+        </ul>
+      </section>
+
+      <section id="achievements">
+        <h2>Feedback & Achievements</h2>
+        <h3>Feedback Form</h3>
+        <div class="feedback-form">
+          <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" />
+            <br />
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" />
+            <br />
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="3"></textarea>
+            <br />
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+        <h3>Achievements</h3>
+        <p>📌 Recognized as the <b>Best Designer</b> at Microsoft.</p>
+        <p>
+          📌 Received the <i>Best Intern Graduate Award</i> for Frontend
+          Development.
+        </p>
+      </section>
+
+      <section id="education">
+        <h2>Education</h2>
+        <p>
+          Pursuing <b>CSE</b> from
+          <u>Keshav Memorial Institute of Technology</u>, 2026
+        </p>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>
+          Email:
+          <a href="mailto:hrushipothireddy@gmail.com"
+            >hrushipothireddy@gmail.com</a
+          >
+        </p>
+        <p>Phone: 8790337174</p>
+        <p>
+          LinkedIn:
+          <a href="https://linkedin.com/in/hrushi" target="_blank"
+            >linkedin.com/in/hrushi</a
+          >
+        </p>
+      </section>
+    </div>
+  </body>
+</html>
